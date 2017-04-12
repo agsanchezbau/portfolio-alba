@@ -11,25 +11,106 @@
   }
     .fotoWidth100-text-rojo {
       width:100%;
-      height: 250px;
+      height: 210px;
       color:#fff;
-      background-color:rgba(255,24,50,.85);
-      padding:.5em 1em;
-      text-align: left;
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      flex-direction: column;
+      background-color:rgba(225,174,119,.85);
   }
 }
+
 .rombo{
   background: url('../images/rombo.svg');
   background-repeat: no-repeat;
-  width: 250px;
-  height: 250px;
+  background-size: contain;
+  background-position: 190px;
   justify-content: center;
   align-content: center;
   flex-direction: column;
   display: flex;
   z-index: auto;
+}
+
+.imagenL {
+    width: 100%;
+    height: auto;
+  }
+
+.fleft {
+  float: left;
+}
+
+.cover {
+  object-fit: cover;
+  /* Small */
+  @media(max-width:767px){
+      height: 250px;
+  }
+}
+
+.titulo {
+  padding-left: 280px;
+}
+
+.subtitulo {
+  padding-left: 280px;
+}
+
+.container-adapt {
+    margin: auto;
+    margin-top: 60px;
+    width:960px;
+    height:800px;
+    background-color: red;
+    /* Small */
+    @media(max-width:991px){
+      width: 100%;
+    }
+  }
+
+.imagen-der-trabajo{
+  width: 640px;
+  height: 200px;
+  background-color: green;
+  float: right;
+  background: url('../images/unmon-pagina-dos.jpg');
+}
+
+.imagen-izq-trabajo{
+  width: 300px;
+  height: 500px;
+  background: url('../images/unmon-portada.jpg');
+}
+
+.text-trabajo{
+  margin-top: 20px;
+  width: 640px;
+  height: 280px;
+  background-color: #ffffff;
+  float: right;
+}
+
+.imagen-foot-primera{
+  margin-top: 20px;
+  width: 317px;
+  height: 280px;
+  display: inline-block;
+  background: url('../images/unmon-asia.jpg');
+
+}
+
+.imagen-foot-segunda{
+  margin-top: 20px;
+  width: 317px;
+  height: 280px;
+  display: inline-block;
+  background: url('../images/unmon-africa.jpg');
+
+}
+
+.imagen-foot-tercera{
+  margin-top: 20px;
+  width: 317px;
+  height: 280px;
+  display: inline-block;
+  background: url('../images/ticket.jpg');
+
 }
