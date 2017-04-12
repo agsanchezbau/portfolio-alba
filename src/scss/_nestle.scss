@@ -28,3 +28,83 @@
   display: flex;
   z-index: auto;
 }
+
+.titulo {
+  padding-left: 280px;
+  vertical-align: baseline;
+}
+
+.subtitulo {
+  padding-left: 280px;
+}
+
+.container-adapt {
+    margin: auto;
+    margin-top: 60px;
+    width:960px;
+    height:800px;
+    /* Small */
+    @media(max-width:991px){
+      width: 100%;
+    }
+  }
+
+  .cover {
+    object-fit: cover;
+    /* Small */
+    @media(max-width:767px){
+        height: 250px;
+    }
+  }
+
+  .titulo {
+    padding-left: 280px;
+    vertical-align: baseline;
+  }
+
+  .subtitulo {
+    padding-left: 280px;
+  }
+
+  .container-adapt {
+      margin: auto;
+      margin-top: 60px;
+      width:960px;
+      height:800px;
+      /* Small */
+      @media(max-width:991px){
+        width: 100%;
+      }
+    }
+
+  .imagen-der-trabajo{
+    background: url('../images/unmon-pagina-dos.jpg');
+    width: 640px;
+    height: 200px;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .imagen-izq-trabajo{
+    background: url('../images/unmon-portada.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 500px;
+
+  }
+
+  .text-trabajo{
+    margin-top: 20px;
+    width: 640px;
+    height: 280px;
+    background-color: #ECEAE8;
+    float: right;
+  }
+
+  .text-trabajo-edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
