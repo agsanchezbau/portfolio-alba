@@ -1,0 +1,30 @@
+.fotocabecera-party {
+  height: 420px;
+  background: url('../images/portada-party.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 183px;
+  @media(max-width:991px){
+    margin-top: 169px;
+  }
+    .fotocabecera-text-marron-oscuro {
+      width:100%;
+      height: 210px;
+      color:#fff;
+      background-color:rgba(88,68,70,.85);
+  }
+}
+
+.rombo{
+  background: url('../images/rombo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 190px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  display: flex;
+  z-index: auto;
+}
