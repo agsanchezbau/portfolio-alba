@@ -38,17 +38,6 @@
   padding-left: 280px;
 }
 
-.container-adapt {
-    margin: auto;
-    margin-top: 60px;
-    width:960px;
-    height:800px;
-    /* Small */
-    @media(max-width:991px){
-      width: 100%;
-    }
-  }
-
   .cover {
     object-fit: cover;
     /* Small */
