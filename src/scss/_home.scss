@@ -18,7 +18,8 @@ ul{
     display: inline-block;
     color: white;
     float: left;
-    width: 300px;
+    width: 100px;
+    margin-top: 10px;
   }
   a {
      color: white; text-decoration: none;
@@ -94,11 +95,6 @@ a.resToggle { display: none;}
 
 
 
-
-
-
-
-
 /************************
   FOOTER
 ************************/
@@ -112,6 +108,8 @@ a.resToggle { display: none;}
     border-top: 2px solid #E7E7E7;
     font-size: 16px;
     background: #fff;
+    padding-top: 8px;
+    position: fixed;
 }
 
 .footer-fixed{
@@ -123,4 +121,6 @@ a.resToggle { display: none;}
     border-top: 2px solid #E7E7E7;
     font-size: 16px;
     background: #fff;
+    padding-top: 8px;
+    margin: 0;
 }

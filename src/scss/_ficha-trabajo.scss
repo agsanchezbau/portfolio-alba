@@ -1,0 +1,233 @@
+.fotocabecera-ciudades {
+  height: 420px;
+  background: url('../images/ciudad-invisible-otavia.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  @media(max-width:991px){
+    margin-top: 90px;
+  }
+    .fotocabecera-text-amarillo {
+      width:100%;
+      height: 210px;
+      color:#fff;
+      background-color:rgba(225,174,119,.85);
+      @media(max-width:991px){
+        height: 230px;
+        text-align: left;
+  }
+}
+
+}
+
+.fotocabecera-active {
+  height: 420px;
+  background: url('../images/active-web-responsive.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  @media(max-width:991px){
+    margin-top: 90px;
+  }
+    .fotocabecera-text-marron {
+      width:100%;
+      height: 210px;
+      color:#fff;
+      background-color:rgba(158,120,97,.85);
+  }
+}
+
+.fotocabecera-maias {
+  height: 420px;
+  background: url('../images/maias-juego-educativo.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  @media(max-width:991px){
+    margin-top: 90px;
+  }
+    .fotocabecera-text-turquesa{
+      width:100%;
+      height: 230px;
+      color:#fff;
+      background-color:rgba(69,129,147,.85);
+  }
+}
+
+
+.fotocabecera-nestle{
+  height: 420px;
+  background: url('../images/packaging-nestle-diseno.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  @media(max-width:991px){
+    margin-top: 90px;
+  }
+    .fotocabecera-text-verde{
+      width:100%;
+      height: 220px;
+      color:#fff;
+      background-color:rgba(0,54,63,.85);
+  }
+}
+
+
+.fotocabecera-party {
+  height: 420px;
+  background: url('../images/portada-party.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  @media(max-width:991px){
+    margin-top: 90px;
+  }
+    .fotocabecera-text-marron-oscuro {
+      width:100%;
+      height: 210px;
+      color:#fff;
+      background-color:rgba(88,68,70,.85);
+  }
+}
+
+.fotocabecera-mundo {
+  height: 420px;
+  background: url('../images/unmon-pagina.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  @media(max-width:991px){
+    margin-top: 90px;
+  }
+    .fotocabecera-text-amarillo {
+      width:100%;
+      height: 210px;
+      color:#fff;
+      background-color:rgba(225,174,119,.85);
+  }
+}
+
+.rombo{
+  background: url('../images/rombo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 190px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  display: flex;
+  z-index: auto;
+}
+
+
+
+.titulo {
+  padding-left: 280px;
+  vertical-align: baseline;
+}
+
+.subtitulo-uno {
+  padding-left: 280px;
+  @media(max-width:991px){
+    display: none;
+}
+}
+
+.subtitulo {
+  padding-left: 280px;
+}
+
+
+.container-adapt {
+  width: 100%;
+  padding-left: 12%;
+    @media(max-width:991px){
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+.column-der-trabajo-ciudades{
+  width: 70%;
+  float: left;
+  margin-top: 30px;
+  @media(max-width:991px){
+    width: 100%;
+    display: block;
+  }
+}
+
+.imagen-der-trabajo-ciudades{
+  display: block;
+
+}
+
+
+
+.imagen-izq-trabajo-ciudades{
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+  @media(max-width:991px){
+    width: 100%;
+    display: block;
+  }
+}
+
+.text-trabajo-edit{
+  display: block;
+  background-color: #ECEAE8;
+  width: 641px;
+  @media(max-width:991px){
+    width: 100%;
+  }
+
+}
+
+.imagenes-parteabajo{
+  width:100%;
+  align-items: center;
+  padding-left: 12%;
+}
+
+.imagen-foot-primera-ciudades{
+  width:33%;
+  float: left;
+  @media(max-width:991px){
+    width: 100%;
+    display: block;
+  }
+
+}
+
+.imagen-foot-segunda-ciudades{
+  width:33%;
+  float: left;
+  @media(max-width:991px){
+    width: 100%;
+    display: block;
+  }
+
+}
+
+.imagen-foot-tercera-ciudades{
+  width:33%;
+  float: left;
+  @media(max-width:991px){
+    width: 100%;
+    display: block;
+  }
+
+}

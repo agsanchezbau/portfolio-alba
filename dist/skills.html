@@ -14,25 +14,17 @@
   </head>
   <body>
     <!-- Menu -->
-    <div class="menu">
-      <nav class="navbar">
-        <a href="index.html">
-          <img src="images/logo-desktop.svg" class="logo">
-          <img src="images/logo-small.png" class="logo-small">
-        </a>
-        <div>
-          <div class="nav-btn-mobile">
-            <a href="#" id="navToggle" class="hambur">&#9776;</a>
-          </div>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="trabajos.html">Trabajos</a></li>
-            <li><a href="sobre-mi.html">Sobre mi</a></li>
-            <li><a href="contactame.html">Contáctame</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <header class="the-header clearfix">
+    <img src="images/mpg-logo-white-01.svg" class="logo">
+    <a href="#" class="resToggle">☰</a>
+    <nav class="the-nav">
+      <ul>
+        <li><a href="trabajos.html"><h4>Trabajos</h4></a></li>
+        <li><a href="skills.html"><h4>Sobre mi</h4></a></li>
+        <li><a href="contactame.html"><h4>Contáctame</h4></a></li>
+      </ul>
+    </nav>
+  </header>
     <!-- Fin Menu -->
 
     <!-- Box Contenido skills -->
@@ -40,10 +32,10 @@
   <div class="content-box col-12">
 
     <!-- Columna izquierda -->
-      <div class="fleft col-6">
+      <div class="fleft w50">
 
         <!-- Box Imagen Izquierda -->
-        <div class="col-12 fleft">
+        <div class="fleft">
             <img class="img-pastilla" src="images/skills.png" alt="skills">
           </div>
           <!-- FIN Imagen Izquierda -->
@@ -51,13 +43,12 @@
         <!-- FIN Columna izquierda -->
 
         <!-- Columna derecha -->
-                  <div class="col-6 fright">
-                    <div class="col-11c">
-                      <div class="estiloform">
+            <div class="fleft w50">
+              <div class="">
                         <!-- Box Direccion -->
                             <div class="col-12 fleft">
-                            <div class="col-icono fleft"><img src="img/Contacto/ico_loc.png" class="img-icon"></div>
-                            <div class="col-11 fright">
+                            <div class="fleft display_in_block col-icono"><img src="img/Contacto/ico_loc.png" class="img-icon"></div>
+                            <div class="fleft display_in_block">
                                         <h3>Educación</h3>
                                         <p>MACBA, Plaça dels Àngels, 1 <br>
                                           08001 Barcelona <br>
@@ -67,11 +58,15 @@
                         <!-- FIN Box Direccion -->
                         </div>
                       </div>
-                    </div>
                   </div>
                 </div>
                   <!-- FIN Columna derecha -->
+<!-- Footer -->
+  <footer>
+        <p class="footer-fixed">2017© Alba Gómez - albadesignstudio@gmail.com | Todos los derechos reservados</p>
+  </footer>
 
-</div>
+<!-- FIN Footer -->
+
   </body>
   </html>

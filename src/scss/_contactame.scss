@@ -2,7 +2,13 @@
   background-color: #f5f3f3;
   padding: 20px;
   margin-top: 20px;
+  width: 502px;
+
+@media (max-width: 991px) {
+  width: 310px;
+  }
 }
+
 .field{
   position: relative;
   border-color: #979797;
