@@ -88,6 +88,12 @@
 	-ms-transition-property:width, background-color;
 	-o-transition-property:width, background-color;
 	transition-property:width, background-color;
+
+  @media (max-width: 474px) {
+    width: 150%;
+    display: block;
+
+    }
 }
 
 .skillbar-title {
