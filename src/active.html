@@ -13,26 +13,24 @@
   <link rel="icon" type="image/png" href="images/favicon.png" >
   </head>
   <body>
+
     <!-- Menu -->
-    <div class="menu">
-      <nav class="navbar">
-        <a href="index.html">
-          <img src="images/logo-desktop.svg" class="logo">
-          <img src="images/logo-small.png" class="logo-small">
-        </a>
-        <div>
-          <div class="nav-btn-mobile">
-            <a href="#" id="navToggle" class="hambur">&#9776;</a>
-          </div>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="trabajos.html">Trabajos</a></li>
-            <li><a href="sobre-mi.html">Sobre mi</a></li>
-            <li><a href="contactame.html">Contáctame</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <header class="the-header clearfix">
+    <a href="index.html">
+    <img src="images/mpg-logo-white-01.svg" class="logo">
+    <a href="#" class="resToggle">☰</a></a>
+    <nav class="the-nav">
+      <ul>
+        <li><a href="trabajos.html"><h4>Trabajos</h4></a></li>
+        <li><a href="skills.html"><h4>Sobre mi</h4></a></li>
+        <li><a href="contactame.html"><h4>Contáctame</h4></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/application.js"></script>
+
     <!-- Fin Menu -->
 
     <!-- Header -->
@@ -41,53 +39,37 @@
         <div class="rombo">
           <h1 class="titulo">04.Active</h1>
           <h4 class="subtitulo">Diseño Web</h4>
-          <h4 class="subtitulo">Realización de la gráfica para la página web de la empresa Active.</h4>
+          <h4 class="subtitulo-uno">Realización de la gráfica para la página web de la empresa Active.</h4>
         </div>
       </div>
     </section>
     <!-- Fin Header -->
 
     <!-- Fotos -->
-      <div class="container-adapt">
-        <div class="imagen-der-trabajo-active">
+    <div class="container-adapt">
+        <div class="imagen-izq-trabajo-ciudades">
+          <img src="images/active-web-responsive-tablet.jpg" width="300px" height="500px">
           </div>
-          <div class="text-trabajo text-trabajo-edit">
+          <div class="column-der-trabajo-ciudades">
+            <div class="imagen-der-trabajo-ciudades">
+              <img src="images/active-web-sectores.jpg" width="640px" height="280px">
+              </div>
+          <div class="text-trabajo-edit">
             <h5>Partner de Microsoft especializado en soluciones de negocios tales como Microsoft Dynamics NAV, Microsoft Dynamics CRM y Business Intelligence.<br>
             <br>Implementan y desarrollan soluciones para pequeñas y medianas empresas que cubren los principales sectores: industrial, distribución, servicios, alimentación, carne, fabricación, retail y muchos otros.</h5>
-          </div>
-        <div class="imagen-izq-trabajo-active">
+
+        </div>
       </div>
-      <div class="imagen-foot-primera-active">
-    </div>
-    <div class="imagen-foot-segunda-active">
-  </div>
-  <div class="imagen-foot-tercera-active">
+    <div class="imagenes-parteabajo">
+      <div class="imagen-foot-primera-ciudades">
+      <img src="images/active-web-dynamicsnav.jpg" width="300px" height="200px"></div>
+    <div class="imagen-foot-segunda-ciudades">
+    <img src="images/active-web-eventos.jpg" width="300px" height="200px"></div>
+  <div class="imagen-foot-tercera-ciudades">
+  <img src="images/active-web-powerbi.jpg" width="300px" height="200px"></div>
 </div>
-    </div>
 
-
-
-
-
-    <div style="width:100%">
-      <div style="width:30%; float:left;">
-        foto izquierda
-      </div>
-      <div style="width:70%; float:left"> columna derecha
-        <div style="display:block"> foto derecha
-          <img src=" ">
-        </div>
-        <div style="display:block">texto derecho
-          texto gris
-        </div>
-      </div>
-    </div>
-    <div style="width:100%">
-      <div style="width:33%; float:left">foto1</div>
-      <div style="width:33%; float:left">foto2</div>
-      <div style="width:33%; float:left">foto3</div>
-    </div>
-
+  <!-- Fin Fotos -->
 
 
     <!-- Footer -->

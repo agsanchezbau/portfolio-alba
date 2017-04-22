@@ -13,26 +13,24 @@
   <link rel="icon" type="image/png" href="images/favicon.png" >
   </head>
   <body>
+
     <!-- Menu -->
-    <div class="menu">
-      <nav class="navbar">
-        <a href="index.html">
-          <img src="images/logo-desktop.svg" class="logo">
-          <img src="images/logo-small.png" class="logo-small">
-        </a>
-        <div>
-          <div class="nav-btn-mobile">
-            <a href="#" id="navToggle" class="hambur">&#9776;</a>
-          </div>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="trabajos.html">Trabajos</a></li>
-            <li><a href="sobre-mi.html">Sobre mi</a></li>
-            <li><a href="contactame.html">Contáctame</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <header class="the-header clearfix">
+    <a href="index.html">
+    <img src="images/mpg-logo-white-01.svg" class="logo">
+    <a href="#" class="resToggle">☰</a></a>
+    <nav class="the-nav">
+      <ul>
+        <li><a href="trabajos.html"><h4>Trabajos</h4></a></li>
+        <li><a href="skills.html"><h4>Sobre mi</h4></a></li>
+        <li><a href="contactame.html"><h4>Contáctame</h4></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/application.js"></script>
+
     <!-- Fin Menu -->
 
     <!-- Header -->
@@ -41,24 +39,30 @@
         <div class="rombo">
           <h1 class="titulo">02.Nestlé Jungly</h1>
           <h4 class="subtitulo">Packaging</h4>
-          <h4 class="subtitulo">Rediseño del envoltorio de las chocolatinas Nestlé Jungly.</h4>
+          <h4 class="subtitulo-uno">Rediseño del envoltorio de las chocolatinas Nestlé Jungly.</h4>
         </div>
       </div>
     </section>
     <!-- Fin Header -->
 
     <!-- Fotos -->
-      <div class="container-adapt">
-        <div class="imagen-der-trabajo-nestle">
+    <div class="container-adapt">
+        <div class="imagen-izq-trabajo-ciudades">
+          <img src="images/packaging-nestle.jpg" width="300px" height="500px">
           </div>
-          <div class="text-trabajo text-trabajo-edit">
+          <div class="column-der-trabajo-ciudades">
+            <div class="imagen-der-trabajo-ciudades">
+              <img src="images/packaging-nestle-caratula.jpg" width="640px" height="280px">
+              </div>
+          <div class="text-trabajo-edit">
             <h5>Nestlé Jungly es una tableta de chocolate con leche y crujiente galleta sin gluten.<br>
             <br> Su envoltorio contiene una gráfica relacionada con los animales de la selva. Cada caja contiene 8 tabletas de 125 gramos, y una ficha explicativa de un animal de la jungla.</h5>
           </div>
-        <div class="imagen-izq-trabajo-nestle">
+        </div>
       </div>
 
-    </div>
+
+  <!-- Fin Fotos -->
 
     <!-- Footer -->
       <footer>

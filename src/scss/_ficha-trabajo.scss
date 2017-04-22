@@ -17,6 +17,7 @@
       @media(max-width:991px){
         height: 230px;
         text-align: left;
+        margin: 0;
   }
 }
 
@@ -38,6 +39,11 @@
       height: 210px;
       color:#fff;
       background-color:rgba(158,120,97,.85);
+      @media(max-width:991px){
+        height: 230px;
+        text-align: left;
+        margin: 0;
+  }
   }
 }
 
@@ -57,6 +63,11 @@
       height: 230px;
       color:#fff;
       background-color:rgba(69,129,147,.85);
+      @media(max-width:991px){
+        height: 230px;
+        text-align: left;
+        margin: 0;
+  }
   }
 }
 
@@ -77,6 +88,11 @@
       height: 220px;
       color:#fff;
       background-color:rgba(0,54,63,.85);
+      @media(max-width:991px){
+        height: 230px;
+        text-align: left;
+        margin: 0;
+  }
   }
 }
 
@@ -97,6 +113,11 @@
       height: 210px;
       color:#fff;
       background-color:rgba(88,68,70,.85);
+      @media(max-width:991px){
+        height: 230px;
+        text-align: left;
+        margin: 0;
+  }
   }
 }
 
@@ -116,6 +137,11 @@
       height: 210px;
       color:#fff;
       background-color:rgba(225,174,119,.85);
+      @media(max-width:991px){
+        height: 230px;
+        text-align: left;
+        margin: 0;
+  }
   }
 }
 
@@ -129,6 +155,10 @@
   flex-direction: column;
   display: flex;
   z-index: auto;
+  @media(max-width:767px){
+    background-position: 30px;
+    margin-top: 20px;
+}
 }
 
 
@@ -136,24 +166,34 @@
 .titulo {
   padding-left: 280px;
   vertical-align: baseline;
+
+  @media(max-width:770px){
+    padding-left: 100px;
+}
+
 }
 
 .subtitulo-uno {
   padding-left: 280px;
-  @media(max-width:991px){
+  @media(max-width:770px){
+    padding-left: 100px;
     display: none;
 }
+
 }
 
 .subtitulo {
   padding-left: 280px;
+  @media(max-width:770px){
+    padding-left: 100px;
+}
 }
 
 
 .container-adapt {
   width: 100%;
   padding-left: 12%;
-    @media(max-width:991px){
+    @media(max-width:767px){
       width: 100%;
       padding: 0;
     }
@@ -163,7 +203,7 @@
   width: 70%;
   float: left;
   margin-top: 30px;
-  @media(max-width:991px){
+  @media(max-width:767px){
     width: 100%;
     display: block;
   }
@@ -171,7 +211,10 @@
 
 .imagen-der-trabajo-ciudades{
   display: block;
-
+  @media(max-width:767px){
+    width: 100%;
+    display: block;
+  }
 }
 
 
@@ -180,7 +223,7 @@
   width: 30%;
   float: left;
   margin-top: 30px;
-  @media(max-width:991px){
+  @media(max-width:767px){
     width: 100%;
     display: block;
   }
@@ -190,7 +233,7 @@
   display: block;
   background-color: #ECEAE8;
   width: 641px;
-  @media(max-width:991px){
+  @media(max-width:767px){
     width: 100%;
   }
 
@@ -200,12 +243,13 @@
   width:100%;
   align-items: center;
   padding-left: 12%;
+  margin-top: 40px;
 }
 
 .imagen-foot-primera-ciudades{
-  width:33%;
+  width:30%;
   float: left;
-  @media(max-width:991px){
+  @media(max-width:767px){
     width: 100%;
     display: block;
   }
@@ -213,9 +257,9 @@
 }
 
 .imagen-foot-segunda-ciudades{
-  width:33%;
+  width:30%;
   float: left;
-  @media(max-width:991px){
+  @media(max-width:767px){
     width: 100%;
     display: block;
   }
@@ -223,9 +267,9 @@
 }
 
 .imagen-foot-tercera-ciudades{
-  width:33%;
+  width:30%;
   float: left;
-  @media(max-width:991px){
+  @media(max-width:767px){
     width: 100%;
     display: block;
   }
