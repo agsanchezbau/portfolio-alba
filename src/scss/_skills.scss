@@ -43,8 +43,13 @@
   margin-top: 30px;
   h3{
     margin: 0;
-
   }
+
+  @media (max-width: 474px) {
+    width: 100%;
+    display: block;
+
+    }
 }
 
 .img-pastilla {
