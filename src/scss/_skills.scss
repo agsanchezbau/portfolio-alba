@@ -6,9 +6,9 @@
   padding: 0 122px;
   display: inline-block;
   width: 100%;
-
 @media (max-width: 400px) {
   padding: 0px 56px;
+
   }
 }
 
@@ -31,6 +31,11 @@
 
 .w50 {
   width: 50%;
+  @media (max-width: 474px) {
+    width: 100%;
+    display: block;
+
+    }
 }
 
 .display_in_block{
@@ -38,6 +43,7 @@
   margin-top: 30px;
   h3{
     margin: 0;
+
   }
 }
 

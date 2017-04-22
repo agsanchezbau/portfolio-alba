@@ -124,3 +124,24 @@ a.resToggle { display: none;}
     padding-top: 8px;
     margin: 0;
 }
+
+
+
+
+/* --- background --- */
+.section-bg {
+	position:absolute;
+	display:block;
+	width:100%;
+	min-height:280px;
+	background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/JF6PWLGRQS.jpg') #ddd center top no-repeat;
+	background-size:cover;
+
+	text-align:center;
+	color:#fff;
+	font-size:40px;
+}
+h1 {
+	display:block;
+	margin:12% auto;
+}
