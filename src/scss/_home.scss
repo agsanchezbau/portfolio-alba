@@ -5,6 +5,7 @@
   content: "";
   display: table;
   clear: both;
+
 }
 
 ul{
@@ -14,15 +15,23 @@ ul{
 
 .the-header {
   background: #458193;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 84px;
+  top: 0;
+
   .logo {
     display: inline-block;
     color: white;
     float: left;
     width: 100px;
     margin-top: 10px;
+
   }
   a {
      color: white; text-decoration: none;
+
   }
 }
 
@@ -30,11 +39,13 @@ a.resToggle { display: none;}
 .the-nav {
   display: inline-block;
   float: right;
+
   li {
     display: inline-block;
     a {
       display: block;
       padding: 30px 15px;
+      height: 84px;
     }
     &:hover a{
       background: #4296AF;
@@ -133,6 +144,7 @@ a.resToggle { display: none;}
 .section-bg {
 	position:absolute;
 	display:block;
+  margin-top: 50px;
 	width:100%;
 	min-height:280px;
   line-height: 200px;
